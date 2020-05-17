@@ -1,8 +1,11 @@
 import React, { Component } from 'react'
-import { Spinner, Button } from 'react-bootstrap'
+import { Spinner } from 'react-bootstrap'
 import ReactPlayer from 'react-player'
 import styles from './Video.module.scss'
 class Video extends Component {
+    onEnded = () => {
+        this.props.isEnd(true)
+    }
     render() {
         return (
             this.props.loading ?

@@ -1,0 +1,28 @@
+.card {
+    margin: 5% 0% 1% 5%;
+    border: unset;
+    border-radius: unset;
+    color: #918f8f;
+
+    .header {
+        background-color: white;
+        border: unset;
+        font-size: 1.5rem;
+        font-weight: bold;
+        border-radius: unset;
+    }
+}
+
+.iconGroup {
+    float: right;
+
+    img {
+        border-radius: 50%;
+        box-shadow: 0 0px 9px 2px #c6c6c6;
+        height: 3rem;
+        width: 4rem;
+        padding: .5rem;
+        margin: 0 5px;
+        opacity: 0.6;
+    }
+}

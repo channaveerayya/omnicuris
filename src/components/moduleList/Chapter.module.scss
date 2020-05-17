@@ -1,0 +1,41 @@
+.container {
+    border-radius: 1.5rem;
+    box-shadow: 0 0px 9px 2px #c6c6c6;
+    overflow: hidden;
+    margin: 1.3rem;
+    margin-bottom: 0;
+
+    .Media {
+        cursor: pointer;
+
+        img {
+            box-shadow: 0 5px 21px 6px #c6c6c6;
+            border-radius: 3rem;
+            margin: .5rem;
+        }
+
+        .mediaBody {
+            position: relative;
+            display: flex;
+
+            .title {
+                font-weight: bold;
+                color: #ee5684;
+                padding: 3% 0;
+                font-size: .9rem;
+
+                span {
+                    padding-left: 2px;
+                    color: #4191da;
+                }
+            }
+
+            .duration {
+                position: absolute;
+                right: 0;
+                padding-right: 3rem;
+                bottom: -12px;
+            }
+        }
+    }
+}

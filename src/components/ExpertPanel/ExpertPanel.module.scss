@@ -1,0 +1,34 @@
+.card {
+    text-align: center;
+    border: unset;
+
+    .expertName {
+        color: #3a8cd9;
+        font-weight: bold;
+    }
+
+    .qualification {
+        color: #ee5684;
+    }
+
+    img {
+        border-radius: 1.5rem;
+        box-shadow: 0 0px 9px 2px #c6c6c6;
+        border: 3px solid white;
+    }
+}
+
+.cardContainer {
+    border: unset;
+    border-radius: unset;
+    color: #918f8f;
+    margin-left: 3rem;
+
+    .header {
+        background-color: white;
+        border: unset;
+        font-size: 1.5rem;
+        font-weight: bold;
+        border-radius: unset;
+    }
+}

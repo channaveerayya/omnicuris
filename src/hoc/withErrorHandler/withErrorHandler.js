@@ -29,7 +29,6 @@ const withErrorHandler = (WrappedComponent, axios) => {
 		}
 		render() {
 			const { error, showHide } = this.state
-			console.log(this.state);
 			return (
 				<Fragment>
 					<Modal show={showHide} onHide={() => this.handleModalShowHide()}>

@@ -5,37 +5,44 @@
   border: 2px solid #dfdfdf;
   border-radius: 1.5rem;
 
-  .Media {
+  .container {
     border-radius: 1.5rem;
     box-shadow: 0 0px 9px 2px #c6c6c6;
     overflow: hidden;
     margin-top: 1.3rem;
 
-    img {
-      box-shadow: 0 5px 21px 6px #c6c6c6;
-      border-radius: 3rem;
-      margin: 1.5rem;
-    }
+    .Media {
+      cursor: pointer;
 
-    .mediaBody {
-      position: relative;
-      display: flex;
-
-      .title {
-        font-weight: bold;
-        color: #ee5684;
-        padding-top: 10%;
-
-        span {
-          color: #4191da;
-        }
+      img {
+        box-shadow: 0 5px 21px 6px #c6c6c6;
+        border-radius: 3rem;
+        margin: 1.5rem;
       }
 
-      .duration {
-        position: absolute;
-        right: 0;
-        padding-right: 3rem;
-        bottom: -12px;
+      .mediaBody {
+        position: relative;
+        display: flex;
+
+        .title {
+          font-weight: bold;
+          color: #ee5684;
+          padding-top: 10%;
+
+          span {
+            padding-left: 5px;
+            color: #4191da;
+          }
+        }
+
+        .duration {
+          position: absolute;
+          right: 0;
+          padding-right: 3rem;
+          bottom: -12px;
+          color: #9c9c9c;
+          font-weight: bold;
+        }
       }
     }
   }
