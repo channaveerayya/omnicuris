@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/omnicuris/static/css/main.9d7ff2bf.chunk.css",
+    "main.js": "/omnicuris/static/js/main.ca8e157f.chunk.js",
+    "main.js.map": "/omnicuris/static/js/main.ca8e157f.chunk.js.map",
+    "runtime-main.js": "/omnicuris/static/js/runtime-main.d246c7ed.js",
+    "runtime-main.js.map": "/omnicuris/static/js/runtime-main.d246c7ed.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/omnicuris/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.bf239665.chunk.js": "/omnicuris/static/js/2.bf239665.chunk.js",
+    "static/js/2.bf239665.chunk.js.map": "/omnicuris/static/js/2.bf239665.chunk.js.map",
+    "index.html": "/omnicuris/index.html",
+    "precache-manifest.70e9e94da53e027af7cd18f9e907161d.js": "/omnicuris/precache-manifest.70e9e94da53e027af7cd18f9e907161d.js",
+    "service-worker.js": "/omnicuris/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/omnicuris/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.9d7ff2bf.chunk.css.map": "/omnicuris/static/css/main.9d7ff2bf.chunk.css.map",
+    "static/js/2.bf239665.chunk.js.LICENSE.txt": "/omnicuris/static/js/2.bf239665.chunk.js.LICENSE.txt",
+    "static/media/facebook.png": "/omnicuris/static/media/facebook.71ce71bf.png",
+    "static/media/whatsapp.png": "/omnicuris/static/media/whatsapp.0f72b24b.png",
+    "static/media/youtub.png": "/omnicuris/static/media/youtub.d9eff1e5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d246c7ed.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.bf239665.chunk.js",
+    "static/css/main.9d7ff2bf.chunk.css",
+    "static/js/main.ca8e157f.chunk.js"
+  ]
+}
